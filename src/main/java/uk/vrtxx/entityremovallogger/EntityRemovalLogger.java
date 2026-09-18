@@ -25,6 +25,11 @@ public final class EntityRemovalLogger extends JavaPlugin implements Listener {
             return;
         }
 
+        if (entity.getType() != org.bukkit.entity.EntityType.VILLAGER
+                && entity.getType() != org.bukkit.entity.EntityType.ITEM) {
+            return;
+        }
+
         Location location = entity.getLocation();
         String customName = entity.getCustomName() == null ? "none" : entity.getCustomName();
 
