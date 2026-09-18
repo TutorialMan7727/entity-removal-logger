@@ -25,8 +25,7 @@ public final class EntityRemovalLogger extends JavaPlugin implements Listener {
             return;
         }
 
-        if (entity.getType() != org.bukkit.entity.EntityType.VILLAGER
-                && entity.getType() != org.bukkit.entity.EntityType.ITEM) {
+        if (entity.getType() != org.bukkit.entity.EntityType.VILLAGER) {
             return;
         }
 
