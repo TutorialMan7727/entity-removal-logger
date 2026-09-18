@@ -1,0 +1,6 @@
+name: EntityRemovalLogger
+version: 1.0.0
+main: uk.vrtxx.entityremovallogger.EntityRemovalLogger
+api-version: "26.2"
+description: Diagnostic logger for entity removals
+author: TutorialMan7727
